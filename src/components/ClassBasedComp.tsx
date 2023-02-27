@@ -4,7 +4,7 @@ import store from '../store';
 
 class ClassBasedCommp extends Component {
   changeHeadline() {
-    store.headerString = 'Class based';
+    store.headerString = 'from class based';
   }
 
   increaseTheValue() {

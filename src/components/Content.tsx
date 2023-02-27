@@ -2,7 +2,7 @@ import store from '../store';
 
 const Content: React.FC = () => {
   const changeHeadline = () => {
-    store.headerString = 'Func. based';
+    store.headerString = 'from func. based';
   };
 
   const increaseTheValue = () => {
